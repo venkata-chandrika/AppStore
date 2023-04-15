@@ -1,0 +1,33 @@
+/* Write your CSS here */
+.list-container {
+  background-color: #ffffff;
+  border-radius: 8px;
+  border-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 8px;
+  min-height: 180px;
+  min-width: 180px;
+}
+.app-image {
+  width: 100px;
+}
+.app-name {
+  color: #1e293b;
+  font-family: Bree Serif;
+  font-size: 20px;
+}
+@media screen and (max-width: 768px) {
+  .list-container {
+    min-height: 120px;
+    min-width: 120px;
+  }
+  .app-image {
+    width: 60px;
+  }
+  .app-name {
+    font-size: 16px;
+  }
+}

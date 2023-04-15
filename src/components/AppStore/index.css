@@ -1,0 +1,65 @@
+/* Write your CSS here */
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+}
+.bg-container {
+  background-image: linear-gradient(to bottom, #fff1eb, #dfe2e5, #ace0f9);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 40px;
+}
+.heading {
+  font-size: 46px;
+  color: #1e293b;
+  font-weight: bold;
+  font-family: Bree Serif;
+}
+.input-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #7b8794;
+  border-radius: 4px;
+  padding: 8px;
+  width: 40%;
+  max-width: 400px;
+}
+.input {
+  width: 100%;
+  outline: none;
+  border: none;
+  background-color: transparent;
+}
+.search-logo {
+  width: 25px;
+}
+
+.tab-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.app-item-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 70%;
+}
+
+@media screen and (max-width: 768px) {
+  .heading {
+    font-size: 32px;
+  }
+  .search-logo {
+    width: 15px;
+  }
+  .input-container {
+    max-width: 250px;
+  }
+}
